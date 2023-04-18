@@ -1,0 +1,135 @@
+.index1 {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+  grid-template-areas: 'imagen texto'
+                        'imagen texto' 
+                        'imagen texto';
+}
+.imagenindex {grid-area: 'imagen';}
+
+.textoinicio {grid-area: 'texto';
+    font-family: $MainFont;
+font-size: 16px;
+text-align: justify;
+padding: 10px 10px;}
+
+.titulo {background-color: rgb(66, 66, 66);
+    color: whitesmoke;
+padding: 5px ;
+gap: 5px;
+text-align: center;
+justify-content: center;
+font-size: 30px;
+font-family: $MainFont;
+border-top: 4px solid rgba(30, 75, 173, 0.753);
+font-weight: bold;}
+
+
+
+.imagenindex {
+    object-fit: cover;
+    width: 400px;
+height: 100%;
+border-radius: 40px;}
+
+.marcamessi{
+    background-color: #000000;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 45% 53%;
+    grid-template-rows: auto;
+  grid-template-areas: 'video texto'
+                        'video texto';
+}
+
+
+.video {
+    grid-area: 'video';
+     padding: 20px 20px;
+    justify-content:center;
+align-items: center;
+text-align: center;}
+
+.videomarca {width: 70%; height: 100%;
+justify-content: center;}
+
+.card {background-color: #000000; 
+    display: grid;
+grid-template-columns: 45% 45%;
+grid-template-rows: auto;
+grid-template-areas: 'imagen1 imagen2'
+'imagen3 imagen4';}
+
+.card-img-top { width: 100%;
+height: 100%;
+object-position: cover;}
+
+.card1 { color: whitesmoke;
+grid-area: 'imagen1';
+border: solid;
+border-color: rgba(0, 15, 46, 0.753);
+border-radius: 25px;}
+
+.card-title{text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;}
+
+
+.card1 img{width: 100%;
+height: 100%;
+object-fit: cover;
+left: 150%;}
+
+.card2 {color: whitesmoke;
+    grid-area: 'imagen2';
+    border: solid;
+border-color: rgba(0, 15, 46, 0.753);
+border-radius: 25px;}
+
+.card3 {color: whitesmoke;
+    grid-area: 'imagen3';
+    border: solid;
+border-color: rgba(0, 15, 46, 0.753);
+border-radius: 25px;}
+
+.card4 {color: whitesmoke;
+        grid-area: 'imagen4';
+        border: solid;
+border-color: rgba(0, 15, 46, 0.753);
+border-radius: 25px;}
+
+.boton-noticias {transition: 1s;}
+
+.btn{text-align: center;
+    display:flex;
+justify-content: center;
+background-color:$mainColor ;
+border: none;
+width: 35%;
+font-size: 16px;
+font-family: $MainFont;}
+
+.btn :hover { border: none;}
+
+.btn-suscripcion{text-align: center;
+    display:flex;
+justify-content: center;
+background-color:$mainColor ;}
+
+.boton-noticias :hover{background-color: rgba(4, 45, 228, 0.836); 
+    color: white;
+border: #eee;}
+
+.boton-not :hover {background-color: beige;}
+
+div.lucas { display: flex;
+justify-content: center;
+text-align: center;
+font-size: 24px;}

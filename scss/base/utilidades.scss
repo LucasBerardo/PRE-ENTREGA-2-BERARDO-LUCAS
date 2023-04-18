@@ -1,0 +1,13 @@
+.boton {
+
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #eee;
+
+    @if $tipo == primary {background-color: rgb(2, 53, 53);}
+    @else if $tipo == secundary {background-color: black;}
+    @else {background-color: azure; color: black;}
+
+
+}

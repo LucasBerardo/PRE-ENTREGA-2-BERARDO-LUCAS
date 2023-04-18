@@ -1,0 +1,284 @@
+@media only screen and (max-width: 900px) {
+  .index1 {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: " imagen" "texto";
+  }
+  .titulo {
+    font-size: 24px;
+  }
+  .imagenindex {
+    position: relative;
+    left: 15%;
+    width: 20%;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .textoinicio {
+    font-size: 14px;
+  }
+  .marcamessi {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "video" "texto";
+  }
+  .videomarca {
+    width: 20%;
+    height: 100%;
+  }
+  .btn {
+    width: 60%;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .videomarca {
+    width: 60%;
+    height: 100%;
+  }
+  .titulo {
+    font-size: 18px;
+  }
+  .textoinicio {
+    font-size: 12px;
+  }
+  .imagenindex {
+    width: 35%;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .btn {
+    width: 70%;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .videomarca {
+    width: 100%;
+    height: 100%;
+  }
+  .imagenindex {
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .btn {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+/* MEDIA QUERIES INDEX */
+@media only screen and (max-width: 800px) {
+  .main-biografia {
+    font-size: 16px;
+  }
+  .titulos {
+    font-size: 28px;
+    width: 50%;
+  }
+  .subtitulos {
+    font-size: 20px;
+  }
+  .foto-inf {
+    width: 40%;
+  }
+  .imagenes-sub20 {
+    width: 25%;
+  }
+  .imagen-mundial2014 {
+    width: 25%;
+  }
+  .imagen-mundial2022 {
+    width: 70%;
+    left: 0%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .main-biografia {
+    font-size: 12px;
+  }
+  .titulos {
+    font-size: 20px;
+    width: 100%;
+  }
+  .subtitulos {
+    font-size: 16px;
+    width: 75%;
+  }
+  .foto-inf {
+    width: 100%;
+  }
+  .imagenes-bcn {
+    width: 100%;
+  }
+  .imagenes-sub20 {
+    width: 100%;
+  }
+  .imagen-mundial2014 {
+    width: 100%;
+  }
+  .imagen-mundial2022 {
+    width: 100%;
+    left: 0%;
+  }
+}
+/* MEDIA QUERIES ESTADISTICAS */
+@media only screen and (max-width: 350px) {
+  .titulo-estadistica {
+    font-size: 16px;
+  }
+  .progress-bar1 {
+    font-size: 10px;
+  }
+  .progress-bar2 {
+    font-size: 10px;
+  }
+  .progress-bar3 {
+    font-size: 10px;
+  }
+  .progress-bar4 {
+    font-size: 10px;
+  }
+}
+/* MEDIA QUERIES GALERIA */
+@media only screen and (max-width: 750px) {
+  .carousel .slide {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-inner {
+    left: 5%;
+    width: 80%;
+    padding: 20px;
+  }
+  .titulogaleria h2 {
+    font-size: 20px;
+  }
+  .grilla2 iframe {
+    width: 60%;
+    position: relative;
+    left: 15%;
+    height: 300px;
+    padding: 5px;
+  }
+  .grilla2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas: "video1" "video2" "video3" "video4";
+  }
+}
+@media only screen and (max-width: 350px) {
+  .carousel-inner {
+    left: 0%;
+    width: 100%;
+    padding: 20px;
+  }
+  .titulogaleria h2 {
+    font-size: 16px;
+  }
+  .grilla2 iframe {
+    width: 100%;
+    position: relative;
+    left: 0%;
+    height: 300px;
+    padding: 5px;
+  }
+  .grilla2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas: "video1" "video2" "video3" "video4";
+  }
+}
+/* MEDIA QUERIES CONTACTO */
+@media only screen and (max-width: 750px) {
+  .col input {
+    font-size: 18px;
+    width: 70%;
+  }
+  .form-control {
+    font-size: 18px;
+    width: 70%;
+  }
+  .boton-enviar {
+    width: 25%;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .col input {
+    font-size: 14px;
+    width: 100%;
+  }
+  .form-control {
+    font-size: 14px;
+    width: 100%;
+  }
+  .boton-enviar {
+    width: 45%;
+    font-size: 14px;
+  }
+}
+/* MEDIA QUERIES FOOTER */
+@media only screen and (max-width: 1024px) {
+  .footer {
+    background-color: rgba(0, 0, 0, 0.3411764706);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    text-decoration-style: none;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration-style: none;
+  }
+  .redes {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .redes1 {
+    width: 30%;
+    height: 55%;
+    align-items: center;
+    border-radius: 100%;
+  }
+  .redes a {
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .footer {
+    text-align: center;
+    justify-content: start;
+  }
+  .redes1 {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footer {
+    display: list-item;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .redes {
+    display: contents;
+    text-align: center;
+  }
+  .redes1 {
+    width: 30%;
+    padding: 5px;
+  }
+}
+
+/*# sourceMappingURL=mediaqueries.css.map */

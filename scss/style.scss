@@ -1,0 +1,17 @@
+//BASE
+@import 'base/reset';
+@import 'base/vars.scss';
+@import 'base/utilidades.scss';
+
+//COMPONENTES
+@import 'componentes/navbar.scss';
+@import 'componentes/footer.scss';
+
+//LAYOUT
+
+@import 'layout/index.scss';
+@import 'layout/biografia.scss';
+@import 'layout/contacto.scss';
+@import 'layout/galeria.scss';
+@import 'layout/estadisticas.scss';
+@import 'layout/mediaqueries.scss';
