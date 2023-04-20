@@ -50,34 +50,79 @@
 
 .footer {
   background-color: rgba(0, 0, 0, 0.3411764706);
-  display: flex;
-  text-align: end;
-  justify-content: center;
   width: 100%;
   height: 100%;
   padding: 10px;
-}
-.footer ul {
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: end;
-  text-align: end;
+  text-align: center;
   align-items: center;
-  list-style-type: none;
-}
-.footer ul li img {
-  width: 40px;
-  border-radius: 100%;
-  height: 40px;
-  object-fit: cover;
-  left: -10px;
+  justify-content: space-around;
 }
 .footer .logo {
   width: 6em;
   height: 6em;
   border-radius: 10px;
-  align-items: center;
+}
+.footer .privacidad {
+  display: contents;
+}
+.footer .privacidad span {
+  font-size: x-small;
+  opacity: 2;
+  color: black;
+  cursor: pointer;
+}
+.footer .footer-redes {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.footer .footer-redes .img1 {
+  width: 100px;
+  object-fit: cover;
+  flex-grow: 1;
+  opacity: 0.7;
+  transition: 1s;
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px 5px;
+}
+.footer .footer-redes .img1:hover {
+  width: 220px;
+  height: 65px;
+  opacity: 1;
+  filter: contrast(105%);
+}
+.footer .footer-redes .img2 {
+  width: 100px;
+  object-fit: cover;
+  flex-grow: 1;
+  opacity: 0.7;
+  transition: 1s;
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px 5px;
+}
+.footer .footer-redes .img2:hover {
+  width: 220px;
+  height: 65px;
+  opacity: 1;
+  filter: contrast(105%);
+}
+.footer .footer-redes .img3 {
+  width: 100px;
+  object-fit: cover;
+  flex-grow: 1;
+  opacity: 0.7;
+  transition: 1s;
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px 5px;
+}
+.footer .footer-redes .img3:hover {
+  width: 220px;
+  height: 65px;
+  opacity: 1;
+  filter: contrast(105%);
 }
 
 .index1 {
@@ -205,42 +250,26 @@
   border: solid;
   border-color: rgba(0, 15, 46, 0.753);
   border-radius: 25px;
+  position: relative;
 }
 
-.boton-noticias {
-  transition: 1s;
-}
-
-.btn {
-  text-align: center;
+.subcripcion {
   display: flex;
   justify-content: center;
-  background-color: #282A3A;
-  border: none;
-  width: 35%;
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-}
-
-.btn :hover {
-  border: none;
-}
-
-.btn-suscripcion {
   text-align: center;
-  display: flex;
-  justify-content: center;
-  background-color: #282A3A;
+  align-items: center;
+  background-color: #000000;
 }
-
-.boton-noticias :hover {
-  background-color: rgba(4, 45, 228, 0.836);
-  color: white;
-  border: #eee;
+.subcripcion button {
+  background-color: #000000;
+  color: #eee;
+  border: none;
+  padding: 10px 0;
+  font-size: 10px;
 }
-
-.boton-not :hover {
-  background-color: beige;
+.subcripcion button:hover {
+  font-size: 12px;
+  box-shadow: 2px 2px 10px 2px #0c6ba1;
 }
 
 div.lucas {
