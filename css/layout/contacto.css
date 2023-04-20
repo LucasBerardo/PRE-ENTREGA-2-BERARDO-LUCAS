@@ -29,18 +29,6 @@
   border: 2px solid black;
 }
 
-.btn :hover {
-  background-color: black;
-  color: white;
-  border: white;
-}
-
-.btn-primary :hover {
-  background-color: black;
-  color: white;
-  border: white;
-}
-
 .boton-enviar {
   width: 15%;
   padding: 4px;
@@ -49,6 +37,12 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  transition: 0.5s;
+}
+.boton-enviar:hover {
+  background-color: black;
+  color: white;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=contacto.css.map */

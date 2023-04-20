@@ -1,41 +1,47 @@
 .contacto{background-color: #00000057;
     border-bottom: 10px solid white;
-    border-top: 10px solid white;}
-    
-    .col input { background-color: lightslategray;
-    font-size: 20px; 
-    width: 55%; 
-    gap: 8px; 
-    padding: 10px 10px;
-    height: 100%;} 
-    
-    .form-control { background-color: lightslategray;
+    border-top: 10px solid white;} 
+
+     .col input { background-color: lightslategray;
         font-size: 20px; 
         width: 55%; 
-        gap: 8px;
+        gap: 8px; 
         padding: 10px 10px;
-        height: 100%;} 
+        height: 100%;}
+        
+        .form-control { background-color: lightslategray;
+            font-size: 20px; 
+            width: 55%; 
+            gap: 8px;
+            padding: 10px 10px;
+            height: 100%;}
+        
+        
+        .btn {
+        background-color: white;
+        color: #000000;
+        border-radius: 5px;
+        border: 2px solid black;}
+
+        
+            .boton-enviar{width: 15%;
+                padding: 4px;
+                font-size: 16px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            transition: 0.5s;
+
+        &:hover {background-color :black;
+             color :white;
+            font-size: 20px;}
+            
+            } 
+
+
+        
+        
     
-    .btn {
-    background-color: white;
-    color: #000000;
-    border-radius: 5px;
-    border: 2px solid black; }
     
-    .btn :hover {background-color:black;
-    color: white;
-    border: white;}
-    
-    .btn-primary :hover {background-color:black;
-        color: white;
-        border: white;}
-    
-    
-    .boton-enviar{width: 15%;
-        padding: 4px;
-        font-size: 16px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;}
     
