@@ -1,5 +1,5 @@
 .index { font-family: $MainFont;
-    background-color: #000000;
+    background-color:$SecondaryColor;
     color: whitesmoke;
   
     h2 {background-color: rgb(66, 66, 66);
@@ -37,7 +37,7 @@ text-align: justify;
 padding: 10px 10px;}
 
 .marcamessi{
-    background-color: #000000;
+    background-color:$SecondaryColor;
     color: whitesmoke;
     display: grid;
     grid-template-columns: 45% 53%;
@@ -58,7 +58,7 @@ padding: 10px 10px;}
 }
 
 
-.card {background-color: #000000; 
+.card {background-color:$SecondaryColor; 
     display: grid;
 grid-template-columns: 45% 45%;
 grid-template-rows: auto;
@@ -111,9 +111,9 @@ position: relative;}}
 justify-content: center;
 text-align:center;
 align-items: center;
-background-color: #000000;
+background-color:$SecondaryColor;
 
-button { background-color: #000000;
+button { background-color:$SecondaryColor;
     color: #eee;
     border: none;
 padding: 10px 0;

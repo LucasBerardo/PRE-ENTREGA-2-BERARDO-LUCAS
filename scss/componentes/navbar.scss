@@ -4,9 +4,11 @@
 width: 100% ;
 height: 100%;}
 
- .navbar {background-color: #00000057; 
+ .navbar {background-color: $PrimaryColor; 
 
     .nav-link.active.inicio {color: white;}
+
+    .exit{color: white;}
 
 
     .logo {width: 6em;
@@ -15,9 +17,12 @@ height: 100%;}
     align-items: center;}
 
  .offcanvas 
-    {background-color:#282A3A;}
+    {background-color: $SecondaryColor;}
 
     .offcanvas-title {color:  white;}
+
+    button.btn-close{
+    background-color:white;}
 
     .navbar-toggler {
         color: rgb(0, 0, 0);

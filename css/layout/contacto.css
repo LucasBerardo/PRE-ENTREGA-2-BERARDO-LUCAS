@@ -1,48 +1,17 @@
-.contacto {
-  background-color: rgba(0, 0, 0, 0.3411764706);
-  border-bottom: 10px solid white;
-  border-top: 10px solid white;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 1 | .contacto{background-color:$SecondaryColor;
+ *   |                            ^^^^^^^^^^^^^^^
+ *   '
+ *   scss\layout\contacto.scss 1:28  root stylesheet */
 
-.col input {
-  background-color: lightslategray;
-  font-size: 20px;
-  width: 55%;
-  gap: 8px;
-  padding: 10px 10px;
-  height: 100%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 1 \2502  .contacto{background-color:$SecondaryColor;\d\a   \2502                             ^^^^^^^^^^^^^^^\a   \2575 \a   scss\\layout\\contacto.scss 1:28  root stylesheet";
 }
-
-.form-control {
-  background-color: lightslategray;
-  font-size: 20px;
-  width: 55%;
-  gap: 8px;
-  padding: 10px 10px;
-  height: 100%;
-}
-
-.btn {
-  background-color: white;
-  color: #000000;
-  border-radius: 5px;
-  border: 2px solid black;
-}
-
-.boton-enviar {
-  width: 15%;
-  padding: 4px;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  transition: 0.5s;
-}
-.boton-enviar:hover {
-  background-color: black;
-  color: white;
-  font-size: 20px;
-}
-
-/*# sourceMappingURL=contacto.css.map */
