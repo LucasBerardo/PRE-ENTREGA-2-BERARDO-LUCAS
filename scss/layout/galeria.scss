@@ -19,9 +19,7 @@ padding-top: 40px;
     font-weight: bold;
     font-style: oblique;
     padding: 10px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    @include flex (center,center,center);
     padding: 10px;
     border-bottom: 2px solid white;}
 
