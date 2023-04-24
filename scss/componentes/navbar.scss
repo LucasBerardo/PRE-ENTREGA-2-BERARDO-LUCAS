@@ -1,38 +1,54 @@
 
 
-.nav {position: absolute;
-width: 100% ;
-height: 100%;}
+ nav {position: relative;
+    top: 0; 
+    width: 100%; 
+    height: 100%;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: space-between;
+background-color: $PrimaryColor;
 
- .navbar {background-color: $PrimaryColor; 
-
-    .nav-link.active.inicio {color: white;}
-
-    .exit{color: white;}
-
+span {font-size: 40px;
+font-weight: bold;
+background-color: rgba(0, 0, 0, 0.795);
+border-bottom: 5px solid rgb(45, 125, 151);
+padding: 10px;
+color: rgba(162, 222, 252, 0.658);
+font-family: $MainFont;
+justify-content: center;
+text-align: center;
+width: 100%;
+}}
 
     .logo {width: 6em;
-        height: 6em; 
-        border-radius: 10px;
-    align-items: center;}
+          height: 6em; 
+          border-radius: 2px;
+        border:2px solid black;}
 
- .offcanvas 
-    {background-color: $SecondaryColor;}
+div .navbar {background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration-style: none;}
 
-    .offcanvas-title {color:  white;}
-
-    button.btn-close{
-    background-color:white;}
-
-    .navbar-toggler {
-        color: rgb(0, 0, 0);
-        border-color: rgba(7, 7, 7, 0.37); 
-        border: solid;
-        background-color: rgba(255, 255, 255, 0.37);}
-        .nav-item a {
-            color: white;}
- 
-}
+ul.pages{display: flex;
+justify-content: center;
+text-align: center;
+text-decoration-style: none;
+list-style-type: none;
 
 
 
+a {padding: 0px 5px;
+text-decoration: none;
+color:black;
+font-size: 18px;
+font-family: $MainFont;
+transition: 0.5s;
+
+&:hover{
+   border-bottom: 1px solid black;
+    font-size: 20px;}}}

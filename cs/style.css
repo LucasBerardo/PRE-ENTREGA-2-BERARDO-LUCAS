@@ -5,69 +5,42 @@
 }
 
 /* VARIABLES MAIN */
-nav {
-  position: relative;
-  top: 0;
+.nav {
+  position: absolute;
   width: 100%;
   height: 100%;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(161, 161, 161, 0.7176470588);
-}
-nav span {
-  font-size: 40px;
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.795);
-  border-bottom: 5px solid rgb(45, 125, 151);
-  padding: 10px;
-  color: rgba(162, 222, 252, 0.658);
-  font-family: "Poppins", sans-serif;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
 }
 
 .logo {
   width: 6em;
   height: 6em;
-  border-radius: 2px;
-  border: 2px solid black;
+  border-radius: 10px;
+  align-items: center;
 }
 
-div .navbar {
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  text-decoration-style: none;
+.navbar {
+  background-color: rgba(161, 161, 161, 0.7176470588);
 }
-
-ul.pages {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  text-decoration-style: none;
-  list-style-type: none;
+.navbar .nav-link.active.inicio {
+  color: white;
 }
-ul.pages a {
-  padding: 0px 5px;
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  transition: 0.5s;
+.navbar .offcanvas {
+  background-color: #000000;
 }
-ul.pages a:hover {
-  border-bottom: 1px solid black;
-  font-size: 20px;
+.navbar .offcanvas-title {
+  color: white;
+}
+.navbar button.btn-close {
+  background-color: white;
+}
+.navbar .navbar-toggler {
+  color: rgb(0, 0, 0);
+  border-color: rgba(7, 7, 7, 0.37);
+  border: solid;
+  background-color: rgba(255, 255, 255, 0.37);
 }
 
 .footer {
-  position: relative;
-  top: 100%;
   background-color: rgba(161, 161, 161, 0.7176470588);
   width: 100%;
   height: 100%;
@@ -81,7 +54,6 @@ ul.pages a:hover {
   width: 6em;
   height: 6em;
   border-radius: 10px;
-  border: 2px solid black;
 }
 .footer .privacidad {
   display: contents;
@@ -101,7 +73,6 @@ ul.pages a:hover {
 }
 .footer .footer-redes .img1 {
   width: 100px;
-  height: 100%;
   object-fit: cover;
   flex-grow: 1;
   opacity: 0.7;
@@ -148,26 +119,134 @@ ul.pages a:hover {
 
 .index {
   font-family: "Poppins", sans-serif;
-  width: 100%;
-  height: 1000px;
-  background: url(https://images.daznservices.com/di/library/DAZN_News/61/f3/2022-12-19-wc-final-messi_12xp19w9jljm71bc45ll0legjy.jpg?t=673782245) no-repeat scroll;
-  background-size: cover;
-  background-attachment: local;
-  background-position: center;
-  opacity: 0.7;
+  background-color: #000000;
+  color: whitesmoke;
 }
-.index h1 {
+.index h2 {
+  background-color: rgb(66, 66, 66);
+  color: whitesmoke;
+  padding: 5px;
+  gap: 5px;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
-  padding: 10px;
-  font-size: 40px;
-  color: rgba(0, 0, 0, 0.877);
+  border-top: 4px solid rgba(30, 75, 173, 0.753);
   font-weight: bold;
+}
+.index .presentacion {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto;
+  grid-template-areas: "imagen texto" "imagen texto" "imagen texto";
+}
+.index .imagenindex {
+  grid-area: "imagen";
+  object-fit: cover;
+  width: 400px;
+  height: 100%;
+  border-radius: 40px;
+}
+.index .textoinicio {
+  grid-area: "texto";
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px 10px;
+}
+.index .marcamessi {
+  background-color: #000000;
+  color: whitesmoke;
+  display: grid;
+  grid-template-columns: 45% 53%;
+  grid-template-rows: auto;
+  grid-template-areas: "video texto" "video texto";
+}
+.index .marcamessi .video {
+  grid-area: "video";
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.index .marcamessi iframe {
+  width: 70%;
+  height: 100%;
+  justify-content: center;
+}
+.index .card {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto;
+  grid-template-areas: "imagen1 imagen2" "imagen3 imagen4";
+}
+.index .card .card-img-top {
   width: 100%;
   height: 100%;
+  object-position: cover;
+}
+.index .card .card1 {
+  color: whitesmoke;
+  grid-area: "imagen1";
+  border: solid;
+  border-color: rgba(0, 15, 46, 0.753);
+  border-radius: 25px;
+}
+.index .card .card-title {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   text-align: center;
+}
+.index .card .card1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  left: 150%;
+}
+.index .card .card2 {
+  color: whitesmoke;
+  grid-area: "imagen2";
+  border: solid;
+  border-color: rgba(0, 15, 46, 0.753);
+  border-radius: 25px;
+}
+.index .card .card3 {
+  color: whitesmoke;
+  grid-area: "imagen3";
+  border: solid;
+  border-color: rgba(0, 15, 46, 0.753);
+  border-radius: 25px;
+}
+.index .card .card4 {
+  color: whitesmoke;
+  grid-area: "imagen4";
+  border: solid;
+  border-color: rgba(0, 15, 46, 0.753);
+  border-radius: 25px;
+  position: relative;
+}
+.index .subcripcion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000000;
+}
+.index .subcripcion button {
+  background-color: #000000;
+  color: #eee;
+  border: none;
+  padding: 10px 0;
+  font-size: 10px;
+}
+.index .subcripcion button:hover {
+  font-size: 12px;
+  box-shadow: 2px 2px 10px 2px #0c6ba1;
 }
 
 .biografia {
@@ -180,7 +259,7 @@ ul.pages a:hover {
 .biografia h2 {
   font-size: 34px;
   font-weight: bold;
-  border-bottom: 2px solid white;
+  border: 2px solid white;
   text-align: center;
   width: 50%;
   padding: 5px 0;
@@ -189,7 +268,7 @@ ul.pages a:hover {
 .biografia h3 {
   font-size: 24px;
   font-weight: bold;
-  border-bottom: 1px solid rgb(70, 70, 70);
+  border: 1px solid rgb(70, 70, 70);
   text-align: start;
   width: 50%;
   padding: 2px 10px;
@@ -278,22 +357,71 @@ ul.pages a:hover {
   font-size: 20px;
 }
 
-.galeriaimg {
-  display: flex;
+.galeria {
+  background-color: #000000;
+}
+.galeria .carousel .slide {
+  width: 75%;
+  height: 70%;
+}
+.galeria .img {
   width: 100%;
-  height: 100vh;
+  height: 60%;
 }
-.galeriaimg img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 2px solid black;
-  margin: -60px;
+.galeria .carousel-inner {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  padding-top: 40px;
 }
-.galeriaimg img:hover {
-  margin: 0px;
-  width: 300px;
+.galeria .carousel-inner .img {
+  width: 100%;
+  height: 60%;
+}
+.galeria .titulogaleria h2 {
+  font-size: 30px;
+  color: #eee;
+  font-weight: bold;
+  font-style: oblique;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid white;
+}
+.galeria .grilla2 {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto;
+  grid-template-areas: "video1 video2" "video3 video4";
+}
+.galeria .video1 {
+  grid-area: "video1";
+  width: 100%;
   height: 300px;
+  padding: 5px;
+}
+.galeria .video2 {
+  grid-area: "video2";
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+}
+.galeria .video3 {
+  grid-area: "video3";
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+}
+.galeria .video4 {
+  grid-area: "video4";
+  width: 100%;
+  height: 300px;
+  padding: 5px;
 }
 
 .titulo-estadistica {
@@ -364,22 +492,129 @@ ul.pages a:hover {
   font-family: "Poppins", sans-serif;
 }
 
-@media only screen and (max-width: 675px) {
-  .index {
-    background-attachment: fixed;
+@media only screen and (max-width: 900px) {
+  .index1 {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: " imagen" "texto";
   }
-  .index .welcome h1 {
-    font-size: 30px;
+  .titulo {
+    font-size: 24px;
+  }
+  .imagenindex {
+    position: relative;
+    left: 15%;
+    width: 20%;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .textoinicio {
+    font-size: 14px;
+  }
+  .marcamessi {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "video" "texto";
+  }
+  .videomarca {
+    width: 20%;
+    height: 100%;
+  }
+  .btn {
+    width: 60%;
+    font-size: 14px;
   }
 }
-@media only screen and (max-width: 535px) {
-  .index .welcome h1 {
+@media only screen and (max-width: 650px) {
+  .videomarca {
+    width: 60%;
+    height: 100%;
+  }
+  .titulo {
+    font-size: 18px;
+  }
+  .textoinicio {
+    font-size: 12px;
+  }
+  .imagenindex {
+    width: 35%;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .btn {
+    width: 70%;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .videomarca {
+    width: 100%;
+    height: 100%;
+  }
+  .imagenindex {
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .btn {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+/* MEDIA QUERIES INDEX */
+@media only screen and (max-width: 800px) {
+  .main-biografia {
+    font-size: 16px;
+  }
+  .titulos {
+    font-size: 28px;
+    width: 50%;
+  }
+  .subtitulos {
     font-size: 20px;
   }
+  .foto-inf {
+    width: 40%;
+  }
+  .imagenes-sub20 {
+    width: 25%;
+  }
+  .imagen-mundial2014 {
+    width: 25%;
+  }
+  .imagen-mundial2022 {
+    width: 70%;
+    left: 0%;
+  }
 }
-@media only screen and (max-width: 400px) {
-  .index .welcome h1 {
+@media only screen and (max-width: 450px) {
+  .main-biografia {
+    font-size: 12px;
+  }
+  .titulos {
+    font-size: 20px;
+    width: 100%;
+  }
+  .subtitulos {
     font-size: 16px;
+    width: 75%;
+  }
+  .foto-inf {
+    width: 100%;
+  }
+  .imagenes-bcn {
+    width: 100%;
+  }
+  .imagenes-sub20 {
+    width: 100%;
+  }
+  .imagen-mundial2014 {
+    width: 100%;
+  }
+  .imagen-mundial2022 {
+    width: 100%;
+    left: 0%;
   }
 }
 /* MEDIA QUERIES ESTADISTICAS */
@@ -483,7 +718,7 @@ ul.pages a:hover {
   }
 }
 /* MEDIA QUERIES FOOTER */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
   .footer {
     background-color: rgba(0, 0, 0, 0.3411764706);
     flex-direction: row;
