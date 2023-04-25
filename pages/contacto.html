@@ -13,68 +13,70 @@
     <body>
       <header>
         <section>
-          <nav class="navbar">
-              <div class="container-fluid">
+          <nav class="nav">
+                  <div>
                   <img class="logo" src="../multimedia/logo.jpg" alt="logo messi">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                  <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Lionel Messi</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                      <li class="nav-item">
-                        <a class="nav-link active inicio" aria-current="page" href="../index.html">Inicio</a>
+                </div>
+                
+                  <div class="navbar">
+                    <ul class="pages">
+                      <li>
+                        <a href="../index.html">Inicio</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="biografia.html">Biografia</a>
+                      <li>
+                        <a href="biografia.html">Biografia</a>
                       </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="estadisticas.html">Estadisticas</a>
+                      <li>
+                          <a href="estadisticas.html">Estadisticas</a>
                         </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="galeria.html">Galeria</a>
+                          <li>
+                              <a href="galeria.html">Galeria</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="contacto.html">Contacto</a>
+                            <li>
+                              <a href="contacto.html">Contacto</a>
                             </li>
-  
+    
                     </ul>
                     
                   </div>
-                </div>
-              </div>
+                  <span>LIONEL MESSI</span>
             </nav>
+    
           </section>
       </header>
     
 </body>
 <main class="contacto">
-  <div>
-    <img src="../multimedia/messipresentacion.jpg" alt="Presentacion de Messi en el PSG">
+  <div class="contactus">
+    <h3>CONTACT US</h3>
   </div>
+  <!-- <div>
+    <img src="../multimedia/messipresentacion.jpg" alt="Presentacion de Messi en el PSG">
+  </div> -->
+  <section class="formulario">
   <div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+      <span class="tituloscontacto">Nombre</span>
+      <input type="text" class="form-control">
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+      <span class="tituloscontacto">Apellido</span>  
+      <input type="text" class="form-control">
     </div>
   </div>
   <form class="col">
-    <input type="" class="form-control" id="floatingInputValue" placeholder="Email" >
+    <span class="tituloscontacto">Email</span>
+    <input type="email" class="form-control" id="floatingInputValue">
     
   </form>
   <div class="form-floating">
+    <span class="tituloscontacto">Deja tu mensaje</span>
     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-    <label for="floatingTextarea2">Deje su mensaje </label>
+    
   </div>
   <button class="boton-enviar" type="submit" class="btn btn-primary">Enviar</button>
 </main>
-
+</section>
 <footer class="footer">
 
   <img class="logo" src="../multimedia/logo.jpg" alt="logo messi">

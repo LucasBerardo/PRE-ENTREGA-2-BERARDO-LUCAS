@@ -1,8 +1,35 @@
+
+
+
 .contacto{background-color:rgba(193, 194, 196, 0.418);
     border-bottom: 10px solid white;
     border-top: 10px solid white;
 width: 100%;
 height: 100%;
+
+.contactus {width: 100%;
+    height: 1000px;
+    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7HU3AVQHEVC7ZGSVKTYBH3DJCM.jpg) no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+    background-attachment:local;
+    background-position: center;
+    opacity: 0.7;
+    
+    .formulario {justify-content: center;
+        display: flex;
+        flex-direction: column;}
+
+h3{font-size: 40px;
+color:black;
+display: flex;
+justify-content: center;
+text-align: center ;
+align-items: center;
+font-family: $MainFont;}}
+
+.tituloscontacto{font-size: 16px;
+font-family: $MainFont;}
 
  img{width: 100%;
 height: 20%;
@@ -11,7 +38,7 @@ padding: 10px;}}
 
      .col input { background-color: $threeColor;
         font-size: 20px; 
-        width: 50%; 
+        width: 30%; 
         align-items: center;
         gap: 8px; 
         padding: 10px 10px;
@@ -19,7 +46,7 @@ padding: 10px;}}
         
         .form-control { background-color: $threeColor;
             font-size: 20px; 
-            width: 50%; 
+            width: 30%; 
             gap: 8px;
             padding: 10px 10px;
             height: 100%;}

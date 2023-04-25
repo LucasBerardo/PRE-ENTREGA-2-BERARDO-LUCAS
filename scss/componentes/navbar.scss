@@ -1,5 +1,3 @@
-
-
  nav {position: relative;
     top: 0; 
     width: 100%; 
@@ -19,12 +17,11 @@ color: rgba(162, 222, 252, 0.658);
 font-family: $MainFont;
 justify-content: center;
 text-align: center;
-width: 100%;
-}}
+width: 100%;}
 
-    .logo {width: 6em;
-          height: 6em; 
-          border-radius: 2px;
+.logo {width: 6em;
+        height: 6em; 
+        border-radius: 2px;
         border:2px solid black;}
 
 div .navbar {background-color: black;
@@ -40,8 +37,6 @@ text-align: center;
 text-decoration-style: none;
 list-style-type: none;
 
-
-
 a {padding: 0px 5px;
 text-decoration: none;
 color:black;
@@ -51,4 +46,4 @@ transition: 0.5s;
 
 &:hover{
    border-bottom: 1px solid black;
-    font-size: 20px;}}}
+    font-size: 20px;}}}}

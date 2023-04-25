@@ -10,11 +10,28 @@ padding:20px;
 border-top: 10px solid white;
 font-weight: bold;}    
 
+.total{filter: grayscale(100%);
+
+    &:hover{filter: grayscale(0%)}}
+
+    .barcelona{filter: grayscale(100%);
+
+        &:hover{filter: grayscale(0%)}}
+
+    .psg{filter: grayscale(100%);
+
+            &:hover{filter: grayscale(0%)}}
+    
+    .arg{filter: grayscale(100%);
+
+                &:hover{filter: grayscale(0%)}}
+
 .progreso {padding:10px 2px; 
     height: 100%;
     width: 100%;
 border-radius: 0%;
-background-color: #505364; 
+background-color: #505364;
+
 
  .barra-goles{
     color:white;
@@ -22,7 +39,8 @@ border-radius: 10px;
 background-color: #0a106bab;
 @include flex (center,center,center);
 font-size: 14px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
+font-family: $MainFont;
+}
             
 .barra-asistencias{
     color:white;
