@@ -59,21 +59,21 @@ text-align: center;
 color: antiquewhite;}
 
 .galeriaarg {
-    display: flex;
-    justify-content: center;
+    @include flex (center,center,center);
     padding: 20px 0;
   
 
-img {width:200px;
-height:400px;
+img {width:150px;
+height:300px;
 object-fit: cover;
 border: 2px solid black;
-margin: 0 -60px;
+margin: 0 -40px;
 filter: grayscale(100%);
+transition: 0.8s;
 
-&:hover{margin: 0px;width:400px;
-    height:600px;
+&:hover{width:180px;
+    height:330px;
     filter: grayscale(0%);
-    margin: 0px 60px;
+    margin: 0px 40px;
 }}}}
     

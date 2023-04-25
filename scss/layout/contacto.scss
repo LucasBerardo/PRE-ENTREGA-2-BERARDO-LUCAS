@@ -22,10 +22,7 @@ height: 100%;
 
 h3{font-size: 40px;
 color:black;
-display: flex;
-justify-content: center;
-text-align: center ;
-align-items: center;
+@include flex (center,center,center);
 font-family: $MainFont;}}
 
 .tituloscontacto{font-size: 16px;
