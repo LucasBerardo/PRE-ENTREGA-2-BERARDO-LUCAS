@@ -386,7 +386,7 @@ main .subcripcion button:hover {
 .col input {
   background-color: lightslategrey;
   font-size: 20px;
-  width: 30%;
+  width: 35%;
   align-items: center;
   gap: 8px;
   padding: 10px 10px;
@@ -396,7 +396,7 @@ main .subcripcion button:hover {
 .form-control {
   background-color: lightslategrey;
   font-size: 20px;
-  width: 30%;
+  width: 35%;
   gap: 8px;
   padding: 10px 10px;
   height: 100%;
@@ -410,7 +410,7 @@ main .subcripcion button:hover {
 }
 
 .boton-enviar {
-  width: 20%;
+  width: 25%;
   padding: 4px;
   font-size: 20px;
   display: flex;
@@ -560,6 +560,15 @@ main .subcripcion button:hover {
   main .index .tex-welcome {
     font-size: 24px;
   }
+  main .marcamessi iframe {
+    width: 70%;
+  }
+  main .card {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "imagen1" "imagen2" "imagen3" "imagen4";
+  }
 }
 @media only screen and (max-width: 435px) {
   main .index {
@@ -567,6 +576,336 @@ main .subcripcion button:hover {
   }
   main .index .tex-welcome {
     font-size: 24px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  main .index .tex-welcome {
+    font-size: 18px;
+  }
+  main .marcamessi iframe {
+    width: 100%;
+  }
+  main .subcripcion button {
+    width: 100%;
+  }
+}
+/* MEDIA QUERIES BIOGRAFIA*/
+@media only screen and (max-width: 750px) {
+  .biografia {
+    font-size: 14px;
+  }
+  .biografia h2 {
+    font-size: 28px;
+    width: 70%;
+  }
+  .biografia h3 {
+    font-size: 20px;
+    width: 70%;
+  }
+  .biografia .foto-inf {
+    width: 55%;
+  }
+  .biografia .imagenes-bcn {
+    width: 35%;
+  }
+  .biografia .imagenes-sub20 {
+    width: 25%;
+  }
+  .biografia .imagen-mundial2014 {
+    width: 25%;
+  }
+  .biografia .imagen-mundial2022 {
+    left: 5%;
+    width: 85%;
+    height: 85%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .biografia {
+    font-size: 14px;
+  }
+  .biografia h2 {
+    font-size: 24px;
+    width: 100%;
+  }
+  .biografia h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .biografia .foto-inf {
+    width: 75%;
+  }
+  .biografia .imagenes-bcn {
+    width: 55%;
+  }
+  .biografia .imagenes-sub20 {
+    width: 55%;
+  }
+  .biografia .imagen-mundial2014 {
+    width: 55%;
+  }
+  .biografia .imagen-mundial2022 {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@media only screen and (max-width: 450px) {
+  .biografia {
+    font-size: 12px;
+  }
+  .biografia h2 {
+    font-size: 24px;
+    width: 100%;
+  }
+  .biografia h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .biografia .foto-inf {
+    width: 95%;
+  }
+  .biografia .imagenes-bcn {
+    width: 75%;
+  }
+  .biografia .imagenes-sub20 {
+    width: 75%;
+  }
+  .biografia .imagen-mundial2014 {
+    width: 75%;
+  }
+}
+/* MEDIA QUERIES CONTACTO*/
+@media only screen and (max-width: 350px) {
+  .contacto .contactus {
+    width: 100%;
+    height: 300px;
+  }
+  .contacto .contactus h3 {
+    font-size: 30px;
+  }
+  .col input {
+    width: 100%;
+    gap: 8px;
+    padding: 3px 3px;
+  }
+  .form-control {
+    width: 100%;
+    gap: 4px;
+    padding: 3px 3px;
+  }
+  .boton-enviar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .contacto .contactus {
+    width: 100%;
+    height: 500px;
+  }
+  .contacto .contactus h3 {
+    font-size: 34px;
+  }
+  .col input {
+    width: 80%;
+    gap: 8px;
+    padding: 6px 6px;
+  }
+  .form-control {
+    width: 80%;
+    gap: 8px;
+    padding: 6px 6px;
+  }
+  .boton-enviar {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .contacto .contactus {
+    width: 100%;
+    height: 400px;
+  }
+  .contacto .contactus h3 {
+    font-size: 30px;
+  }
+  .col input {
+    width: 100%;
+    gap: 8px;
+    padding: 6px 6px;
+  }
+  .form-control {
+    width: 100%;
+    gap: 8px;
+    padding: 6px 6px;
+  }
+  .boton-enviar {
+    width: 100%;
+  }
+}
+/* MEDIA QUERIES GALERIA*/
+@media only screen and (max-width: 960px) {
+  .galeria .titulogaleria {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: antiquewhite;
+  }
+  .galeria .galeriaarg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .galeria .galeriaarg img {
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid black;
+    margin: 0 -30px;
+    filter: grayscale(100%);
+    transition: 0.8s;
+  }
+  .galeria .galeriaarg img:hover {
+    width: 140px;
+    height: 240px;
+    margin: 0px 30px;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .galeria .titulogaleria {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: antiquewhite;
+  }
+  .galeria .galeriaarg img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid black;
+    margin: 0 px;
+    filter: grayscale(100%);
+    transition: 0.8s;
+  }
+  .galeria .galeriaarg img:hover {
+    width: 120px;
+    height: 200px;
+    margin: 0px 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .galeria .galeriaarg {
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-area: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12" "img13" "img14" "img15" "img16" "img17" "img18" "img19" "img20" "img21" "img22" "img23" "img24";
+  }
+  .galeria .galeriaarg img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px;
+    filter: grayscale(100%);
+    transition: 0;
+  }
+  .galeria .galeriaarg img .img1 {
+    grid-area: "img1";
+  }
+  .galeria .galeriaarg img .img2 {
+    grid-area: "img2";
+  }
+  .galeria .galeriaarg img .img3 {
+    grid-area: "img3";
+  }
+  .galeria .galeriaarg img .img4 {
+    grid-area: "img4";
+  }
+  .galeria .galeriaarg img .img5 {
+    grid-area: "img5";
+  }
+  .galeria .galeriaarg img .img6 {
+    grid-area: "img6";
+  }
+  .galeria .galeriaarg img .img7 {
+    grid-area: "img7";
+  }
+  .galeria .galeriaarg img .img8 {
+    grid-area: "img8";
+  }
+  .galeria .galeriaarg img .img0 {
+    grid-area: "img9";
+  }
+  .galeria .galeriaarg img .img10 {
+    grid-area: "img10";
+  }
+  .galeria .galeriaarg img .img11 {
+    grid-area: "img11";
+  }
+  .galeria .galeriaarg img .img12 {
+    grid-area: "img12";
+  }
+  .galeria .galeriaarg img .img13 {
+    grid-area: "img13";
+  }
+  .galeria .galeriaarg img .img14 {
+    grid-area: "img14";
+  }
+  .galeria .galeriaarg img .img15 {
+    grid-area: "img15";
+  }
+  .galeria .galeriaarg img .img16 {
+    grid-area: "img16";
+  }
+  .galeria .galeriaarg img .img17 {
+    grid-area: "img17";
+  }
+  .galeria .galeriaarg img .img18 {
+    grid-area: "img18";
+  }
+  .galeria .galeriaarg img .img19 {
+    grid-area: "img19";
+  }
+  .galeria .galeriaarg img .img20 {
+    grid-area: "img20";
+  }
+  .galeria .galeriaarg img .img21 {
+    grid-area: "img21";
+  }
+  .galeria .galeriaarg img .img22 {
+    grid-area: "img22";
+  }
+  .galeria .galeriaarg img .img23 {
+    grid-area: "img23";
+  }
+  .galeria .galeriaarg img .img24 {
+    grid-area: "img24";
+  }
+  .galeria .galeriaarg img:hover {
+    width: 220px;
+    height: 330px;
+    filter: grayscale(0%);
+    margin: 0px;
+  }
+}
+/* MEDIA QUERIES ESTADISTICAS*/
+@media only screen and (max-width: 500px) {
+  .titulo-estadistica {
+    font-size: 16px;
+  }
+  .progreso .barra-goles {
+    font-size: 10px;
+  }
+  .progreso .barra-asistencias {
+    font-size: 10px;
+  }
+  .progreso .barra-partidos {
+    font-size: 10px;
+  }
+  .progreso .barra-total {
+    font-size: 10px;
   }
 }
 

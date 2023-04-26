@@ -1,44 +1,17 @@
-/* MEDIA QUERIES INDEX */
-@media only screen and (max-width: 820px) {
-  main .index {
-    height: 800px;
-  }
-  main .index .tex-welcome {
-    font-size: 30px;
-  }
-  main h2 {
-    font-size: 24px;
-  }
-  main .textoinicio {
-    font-size: 14px;
-  }
-  main .marcamessi {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas: "texto" "video";
-  }
-  main .marcamessi .video {
-    grid-area: "video";
-  }
-  main .marcamessi iframe {
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  main .index {
-    height: 600px;
-  }
-  main .index .tex-welcome {
-    font-size: 24px;
-  }
-}
-@media only screen and (max-width: 435px) {
-  main .index {
-    height: 400px;
-  }
-  main .index .tex-welcome {
-    font-size: 24px;
-  }
-}
+/* Error: Undefined variable.
+ *     ,
+ * 208 |     font-family: $MainFont;
+ *     |                  ^^^^^^^^^
+ *     '
+ *   scss\layout\mediaqueries.scss 208:18  root stylesheet */
 
-/*# sourceMappingURL=mediaqueries.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a     \2577 \a 208 \2502      font-family: $MainFont;\d\a     \2502                   ^^^^^^^^^\a     \2575 \a   scss\\layout\\mediaqueries.scss 208:18  root stylesheet";
+}
