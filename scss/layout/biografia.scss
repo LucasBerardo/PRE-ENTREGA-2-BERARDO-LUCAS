@@ -22,6 +22,29 @@ font-weight: bold;
 font-family: $MainFont;
 border-radius: 5px;}}
 
+.infancia {display: grid;
+grid-template-columns: 45% 45%;
+grid-template-rows: auto;
+grid-template-areas:'imagen' 'texto';
+
+
+
+
+.infancia-messi {grid-area: 'texto';}
+.imagenes-inf { grid-area: 'imagen';}
+
+button{ width: 150px;
+    font-size: $MainFont;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+background-color: rgba(107, 106, 106, 0.76);
+color:white;}}
+
+
+
 
 
 .titulo1{background-color: rgba(31, 75, 170, 0.822);
@@ -60,7 +83,11 @@ margin: 35px;}
             color:  rgba(146, 146, 146, 0.938);}
         
 .foto-inf{@extend .foto-info;
-width: 35%;}
+    height: auto;
+width: 100%;
+position: relative;
+left: 25%;
+top: 25px;}
             
 .imagenes-bcn{width:25%;
             @extend .foto-info}

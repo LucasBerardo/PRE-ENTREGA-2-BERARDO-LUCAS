@@ -318,6 +318,29 @@ main .subcripcion button:hover {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
 }
+.biografia .infancia {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto;
+  grid-template-areas: "imagen" "texto";
+}
+.biografia .infancia .infancia-messi {
+  grid-area: "texto";
+}
+.biografia .infancia .imagenes-inf {
+  grid-area: "imagen";
+}
+.biografia .infancia button {
+  width: 150px;
+  font-size: "Poppins", sans-serif;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(107, 106, 106, 0.76);
+  color: white;
+}
 .biografia .titulo1 {
   background-color: rgba(31, 75, 170, 0.822);
   color: white;
@@ -354,7 +377,11 @@ main .subcripcion button:hover {
   color: rgba(146, 146, 146, 0.938);
 }
 .biografia .foto-inf {
-  width: 35%;
+  height: auto;
+  width: 100%;
+  position: relative;
+  left: 25%;
+  top: 25px;
 }
 .biografia .imagenes-bcn {
   width: 25%;
