@@ -30,6 +30,9 @@ nav {
   text-align: center;
   background-color: rgba(161, 161, 161, 0.7176470588);
 }
+nav .menu-hamb {
+  display: none;
+}
 nav span {
   font-size: 40px;
   font-weight: bold;
@@ -318,6 +321,10 @@ main .subcripcion button:hover {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
 }
+.biografia p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
 .biografia .infancia {
   display: grid;
   grid-template-columns: 45% 45%;
@@ -330,16 +337,13 @@ main .subcripcion button:hover {
 .biografia .infancia .imagenes-inf {
   grid-area: "imagen";
 }
-.biografia .infancia button {
-  width: 150px;
-  font-size: "Poppins", sans-serif;
-  font-weight: bold;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(107, 106, 106, 0.76);
-  color: white;
+.biografia .texto-oculto {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+.biografia .texto-oculto summary {
+  font-size: small;
 }
 .biografia .titulo1 {
   background-color: rgba(31, 75, 170, 0.822);
@@ -379,12 +383,15 @@ main .subcripcion button:hover {
 .biografia .foto-inf {
   height: auto;
   width: 100%;
-  position: relative;
-  left: 25%;
-  top: 25px;
+  padding: 40px;
 }
 .biografia .imagenes-bcn {
-  width: 25%;
+  width: 50%;
+  height: auto;
+  position: relative;
+  left: 20%;
+  object-fit: cover;
+  padding: 10px 60px;
 }
 .biografia .imagenes-sub20 {
   width: 15%;
@@ -461,6 +468,7 @@ main .subcripcion button:hover {
   padding: 10px 10px;
   height: 100%;
   overflow: none;
+  resize: none;
 }
 
 .btn {
@@ -1038,6 +1046,12 @@ main .subcripcion button:hover {
 }
 /* MEDIA QUERIES NAVBAR*/
 @media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  nav .menu-hamb {
+    display: block;
+  }
   nav span {
     font-size: 34px;
   }
@@ -1046,8 +1060,7 @@ main .subcripcion button:hover {
     height: 80px;
   }
   nav div .navbar {
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
   nav ul.pages a {
     font-size: 14px;

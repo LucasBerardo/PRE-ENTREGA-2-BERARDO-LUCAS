@@ -2,6 +2,9 @@
     top: 0; 
     width: 100%; 
     height: 100%;
+
+.menu-hamb{display: none} 
+
 @include flex (center,space-between,center );
 background-color: $PrimaryColor;
 
