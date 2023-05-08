@@ -31,36 +31,44 @@
     <body>
       <header>
         <section>
-          <nav class="nav">
-                  <div>
-                  <img class="logo" src="../multimedia/logo.jpg" alt="logo messi">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <img class="logo" src="../multimedia/logo.jpg" alt="logo messi">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Lionel Messi</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                
-                  <div class="navbar">
-                    <ul class="pages">
-                      <li>
-                        <a href="../index.html">Inicio</a>
+                <div class="offcanvas-body">
+                  <ul class="pages">
+                    <li>
+                      <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                      <a href="biografia.html">Biografia</a>
+                    </li>
+                    <li>
+                        <a href="estadisticas.html">Estadisticas</a>
                       </li>
-                      <li>
-                        <a href="biografia.html">Biografia</a>
-                      </li>
-                      <li>
-                          <a href="estadisticas.html">Estadisticas</a>
-                        </li>
+                        <li>
+                            <a href="galeria.html">Galeria</a>
+                          </li>
                           <li>
-                              <a href="galeria.html">Galeria</a>
-                            </li>
-                            <li>
-                              <a href="contacto.html">Contacto</a>
-                            </li>
+                            <a href="contacto.html">Contacto</a>
+                          </li>
     
-                    </ul>
-                    
-                  </div>
-                  <span>LIONEL MESSI</span>
-            </nav>
-    
-          </section>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <span class="titulo-nav">LIONEL MESSI</span>
+            </div>
+          </nav>
+      </section>
       </header>
     
 </body>
