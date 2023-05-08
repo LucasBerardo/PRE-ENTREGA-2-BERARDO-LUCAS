@@ -1,23 +1,19 @@
 
-.navbar {position: relative;
+.navbar {padding: 0;
          top: 0; 
         width: 100%; 
         height: 100%;
-        display: flex;
-         flex-wrap: wrap;
-         
-        
+        flex-wrap: wrap ;
+       
 
- 
+     
+
  .offcanvas{--bs-offcanvas-transition: transform 0.0s;
                 align-items: center;
                 --bs-offcanvas-title-line-height: 0;
+               
 
-                .offcanvas-body {display: flex;
-                    flex-wrap: nowrap;
-                    justify-content: space-between;
-                text-align: center;          
-    align-items: center;}}
+    }
 
 .logo {width: 100px;
          height: 100px; 
@@ -25,18 +21,22 @@
              border:2px solid black;}
             
              ul.pages{ display: flex;
-                justify-content: space-between;
-                text-align: center;
                  text-decoration-style: none;
                  list-style-type: none;
+                 background-color:black;
+            
+                 
+                 
+
                 
                  a {padding: 0px 5px;
+                    color: white;
                  text-decoration: none;
-                 color:black;
+                 
                  font-size: 18px;
                  font-family: $MainFont;
                  transition: 0.5s;
-                 background-image:linear-gradient(black,rgba(0, 0, 0, 0.151)) ;
+                 background-image:linear-gradient(orangered, rgba(211, 64, 10, 0.808)) ;
                  background-position: 50% 100%;
                  background-repeat: no-repeat;
                  background-size: 0% 2%;
@@ -44,22 +44,23 @@
                 
                 
                  &:hover{
-                     background-image:linear-gradient(black,rgba(0, 0, 0, 0.151)) ;
+                    background-image:linear-gradient(orangered, rgba(211, 64, 10, 0.808)) ;
                      background-size: 100% 2px;
                      font-size: 20px;}}}}
-div {width: 100%; 
+
+    div { background-color:black;
+        width: 100%;
 
 span{padding-top: 10px;}
 
     .titulo-nav {font-size: 40px;
      font-weight: bold;
       border-bottom: 5px solid rgb(45, 125, 151);
-     padding: 10px;
      color: rgba(0, 77, 116, 0.952);
      font-family: $MainFont;
      @include flex (center,center,center);
                  
      background: linear-gradient(to left, rgb(103, 165, 194),rgba(255, 253, 253, 0.979));}}
             
-
+    
     
