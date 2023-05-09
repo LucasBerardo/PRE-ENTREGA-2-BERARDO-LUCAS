@@ -49,7 +49,7 @@
                      font-size: 20px;}}}}
 
     div { background-color:black;
-        width: 100%;
+        width: 100%;}
 
 span{padding-top: 10px;}
 
@@ -60,7 +60,7 @@ span{padding-top: 10px;}
      font-family: $MainFont;
      @include flex (center,center,center);
                  
-     background: linear-gradient(to left, rgb(103, 165, 194),rgba(255, 253, 253, 0.979));}}
+     background: linear-gradient(to left, rgb(103, 165, 194),rgba(255, 253, 253, 0.979));}
             
     
     
