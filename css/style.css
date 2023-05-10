@@ -530,7 +530,7 @@ form.col {
 }
 
 main section.total {
-  background: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2073cba28178b762/63fcf5bc1c9db30a5b4f33a0/GettyImages-1451378029.jpg?auto=webp&format=pjpg&width=3840&quality=60) no-repeat scroll;
+  background: url(https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-09/-f5c8e043-2ddd-4e8b-9548-362adf66795f.png?itok=yasROSj_) no-repeat scroll;
   width: 100%;
   height: 1000px;
   background-size: cover;
@@ -566,7 +566,7 @@ main section.barcelona div {
   background: none;
 }
 main section.arg {
-  background: url(https://image.ondacero.es/clipping/cmsimages02/2021/08/11/2AA7AA13-A220-4C3A-A12B-1676EAEADFB0/98.jpg?crop=1600,900,x0,y0&width=1900&height=1069&optimize=high&format=webply) no-repeat scroll;
+  background: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2073cba28178b762/63fcf5bc1c9db30a5b4f33a0/GettyImages-1451378029.jpg?auto=webp&format=pjpg&width=3840&quality=60) no-repeat scroll;
   width: 100%;
   height: 900px;
   background-size: cover;
@@ -628,7 +628,7 @@ main .progreso {
 main .progreso .barra-goles-psg {
   height: 45px;
   color: white;
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(0, 0, 255, 0.685));
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(255, 255, 255, 0.781), rgba(0, 0, 255, 0.685));
   transition: 0.4s;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
@@ -637,7 +637,7 @@ main .progreso .barra-goles-psg {
 main .progreso .barra-asistencias-psg {
   height: 45px;
   color: white;
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(0, 0, 255, 0.685));
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(255, 255, 255, 0.781), rgba(0, 0, 255, 0.685));
   transition: 0.4s;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
@@ -646,7 +646,7 @@ main .progreso .barra-asistencias-psg {
 main .progreso .barra-partidos-psg {
   height: 45px;
   color: white;
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(0, 0, 255, 0.685));
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(255, 255, 255, 0.781), rgba(0, 0, 255, 0.685));
   transition: 0.4s;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
@@ -655,7 +655,7 @@ main .progreso .barra-partidos-psg {
 main .progreso .barra-titulos-psg {
   height: 45px;
   color: white;
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(0, 0, 255, 0.685));
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(255, 255, 255, 0.781), rgba(0, 0, 255, 0.685));
   transition: 0.4s;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
@@ -700,6 +700,50 @@ main .progreso .barra-titulos-bcn {
   height: 45px;
   color: white;
   background: linear-gradient(to left, rgba(255, 0, 0, 0.596), rgba(0, 0, 255, 0.685));
+  transition: 0.4s;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+main .progreso {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px 2px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0%;
+}
+main .progreso .barra-goles-arg {
+  height: 45px;
+  color: white;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.699), rgba(8, 157, 216, 0.685));
+  transition: 0.4s;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+main .progreso .barra-asistencias-arg {
+  height: 45px;
+  color: white;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.699), rgba(8, 157, 216, 0.685));
+  transition: 0.4s;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+main .progreso .barra-partidos-arg {
+  height: 45px;
+  color: white;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.699), rgba(8, 157, 216, 0.685));
+  transition: 0.4s;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+main .progreso .barra-titulos-arg {
+  height: 45px;
+  color: white;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.699), rgba(8, 157, 216, 0.685));
   transition: 0.4s;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
@@ -1155,9 +1199,35 @@ main .progreso .barra-titulos-bcn {
   }
 }
 /* MEDIA QUERIES NAVBAR*/
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1000px) {
+  nav ul .page li {
+    padding: 4px;
+  }
+  nav ul .page a {
+    font-size: 18px;
+  }
+  nav ul .page a:hover {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  nav div .navbar-toggler {
+    background-color: rgba(10, 148, 212, 0.808);
+    color: rgba(255, 255, 255, 0.911);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  nav div .navbar-toggler .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
   nav div .offcanvas-header {
     width: 100%;
+    color: white;
   }
   nav div .offcanvas-body {
     width: 100%;
