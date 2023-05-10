@@ -1,11 +1,13 @@
 main {
    
- section.total{background:url(http://www.fondox.net/wallpapers/resoluciones/13/lionel-messi-con-el-barcelona_1920x1080_1105.jpg) no-repeat scroll;
-            width: 100%;
-        height: 900px;
+ section.total{
+    background:url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2073cba28178b762/63fcf5bc1c9db30a5b4f33a0/GettyImages-1451378029.jpg?auto=webp&format=pjpg&width=3840&quality=60) no-repeat scroll;
+        width: 100%;
+        height: 1000px;
         background-size: cover;
         background-attachment:local;
-        background-position: center;
+        background-position:center;
+        opacity: 0.7;
         div{background: none;}}
 
 section.psg{background:url(https://image.ondacero.es/clipping/cmsimages02/2021/08/11/2AA7AA13-A220-4C3A-A12B-1676EAEADFB0/98.jpg?crop=1600,900,x0,y0&width=1900&height=1069&optimize=high&format=webply) no-repeat scroll;
@@ -14,6 +16,25 @@ section.psg{background:url(https://image.ondacero.es/clipping/cmsimages02/2021/0
         background-size: cover;
         background-attachment:local;
         background-position: center;
+        opacity: 0.7;
+        div{background: none;}}
+
+    section.barcelona{background:url(https://okdiario.com/img/2021/07/18/messi-barcelona-1.jpg) no-repeat scroll;
+            width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-attachment:local;
+        background-position: center;
+        opacity: 0.7;
+        div{background: none;}}
+
+section.arg{background:url(https://image.ondacero.es/clipping/cmsimages02/2021/08/11/2AA7AA13-A220-4C3A-A12B-1676EAEADFB0/98.jpg?crop=1600,900,x0,y0&width=1900&height=1069&optimize=high&format=webply) no-repeat scroll;
+            width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-attachment:local;
+        background-position: center;
+        opacity: 0.7;
         div{background: none;}}
     
 
@@ -28,7 +49,7 @@ section.psg{background:url(https://image.ondacero.es/clipping/cmsimages02/2021/0
 
  .barra-goles-total{height: 45px;
     color:white;
-    background-color: #0080e981;
+    background-color: #155cc5b2;
     font-size: 24px;
     font-family: $MainFont;
 font-weight: bold; }
@@ -36,8 +57,7 @@ font-weight: bold; }
 .barra-asistencias-total{
     height: 45px;
     color:white;
-    background-color: #0080e9f1;
-    @include flex (center,center,center);
+    background-color: #155cc5b2;
     font-size: 24px;
     font-family: $MainFont;
 font-weight: bold;}
@@ -45,19 +65,95 @@ font-weight: bold;}
 .barra-partidos-total{
     height: 45px;
     color:white;
-    background-color: #0080e9f1;
-    @include flex (center,center,center);
+    background-color: #155cc5b2;
     font-size: 24px;
     font-family: $MainFont;
 font-weight: bold;}
 
-.barra-titulos-total{  height: 45px;
+.barra-titulos-total{ height: 45px;
     color:white;
-    background-color: #0080e9f1;
-    @include flex (center,center,center);
+    background-color: #155cc5b2;
     font-size: 24px;
     font-family: $MainFont;
-font-weight: bold;}}}
+font-weight: bold;}}
+
+.progreso {display: flex;
+    flex-direction: row-reverse;
+    padding:50px 2px;     
+     height: 100%;   
+       width: 100%; 
+       border-radius: 0%;
+
+.barra-goles-psg{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }
+
+.barra-asistencias-psg{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }
+
+.barra-partidos-psg{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }
+
+.barra-titulos-psg{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }}
+
+.progreso {display: flex;
+    flex-direction: row-reverse;
+    padding:50px 2px;     
+     height: 100%;   
+       width: 100%; 
+       border-radius: 0%;
+
+.barra-goles-bcn{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }
+
+.barra-asistencias-bcn{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }
+
+.barra-partidos-bcn{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }
+
+.barra-titulos-bcn{height: 45px;
+    color:white;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.596),rgba(0, 0, 255, 0.685));
+    transition: 0.4s;
+    font-size: 24px;
+    font-family: $MainFont;
+font-weight: bold; }}}
 
  
 
