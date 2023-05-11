@@ -52,7 +52,7 @@
               height: 400px;                      
               .tex-welcome{font-size: 24px;}}}}
 
-              @media only screen and (max-width: 350px){
+  @media only screen and (max-width: 350px){
               main{
                     
                 .index .tex-welcome{font-size: 18px;}
@@ -62,21 +62,52 @@
                        .subcripcion button { width: 100%;}}}
 
             /* MEDIA QUERIES BIOGRAFIA*/
+            
+            @media only screen and (max-width: 950px){
+
+                .biografia {
+                
+                    .portada-bigrafia{
+                    height: 700px;
+        
+                    
+                    span{
+                    font-size: 24px;
+                    
+                   }}}}
+    
             @media only screen and (max-width: 750px){
 
             .biografia {
                 font-size: 14px;
             
-                h2{font-size: 28px;
+                .portada-bigrafia{
+                height: 500px;
+    
+                
+                span{
+                font-size: 20px;
+                }}
+
+                h2{font-size: 24px;
                     width: 70%;}
                     
-                h3 {font-size: 20px;
+                h3 {font-size: 24px;
                     width: 70%;}
+
+       p {
+        font-size: 16px;}
+
+   .infancia {display: block;}
                     
             .foto-inf{
-            width: 55%;}
+            width: 80%;}
                         
-            .imagenes-bcn{width:35%;}
+            .imagenes-bcn{width:80%;
+               
+            position: relative;
+            left:0%;
+            padding: 10px;}
                     
             .imagenes-sub20{width:25%;}
                     
@@ -87,57 +118,95 @@
                     width: 85%;
                 height:85% ;}}}
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 600px){
 
-                .biografia {
-                        font-size: 14px;
-                    
-                        h2{font-size: 24px;
-                            width: 100%;}
-                            
-                        h3 {font-size: 18px;
-                            width: 100%;}
-                            
-                    .foto-inf{
-                    width: 75%;}
-                                
-                    .imagenes-bcn{width:55%;}
-                            
-                    .imagenes-sub20{width:55%;}
-                            
-                    .imagen-mundial2014 {width:55%;}
-                            
-                    .imagen-mundial2022 {
-                                left: 0;
-                            width: 100%;
-                        height:100% ;
-                    opacity: 1;
-                    transform: translate3d(0,0,0);}}}
+    .biografia {
+        font-size: 14px;
+    
+        .portada-bigrafia{
+        height: 450px;
+
+        
+        span{
+            width: 25%;
+            gap: 10px;
+        font-size: 18px;
+        }}
+
+        h2{font-size: 22px;
+            width: 70%;}
+            
+        h3 {font-size: 22px;
+            width: 70%;}
+
+p {
+font-size: 16px;}
+
+.infancia {display: block;}
+            
+    .foto-inf{
+    width: 80%;}
+                
+    .imagenes-bcn{width:80%;
+       
+    position: relative;
+    left:0%;
+    padding: 10px;}
+            
+    .imagenes-sub20{width:25%;}
+            
+    .imagen-mundial2014 {width:25%;}
+            
+    .imagen-mundial2022 {
+                left: 5%;
+            width: 85%;
+        height:85% ;}}}
 
  @media only screen and (max-width: 450px){
+    .biografia {
+        font-size: 14px;
+    
+        .portada-bigrafia{
+        height: 250px;
 
-              .biografia {
-                          font-size: 12px;
-                            
-                 h2{
-                    font-size: 24px;
-                    width: 100%;}
-                                    
-                    h3 {
-                        font-size: 18px;
-                        width: 100%;}
-                                    
-                 .foto-inf{
-                    width: 95%;}
-                                        
-                 .imagenes-bcn{
-                    width:75%;}
-                                    
-                     .imagenes-sub20{
-                        width:75%;}
-                                    
-                .imagen-mundial2014 {
-                    width:75%;}}}
+        
+        span{
+            width: 0%;
+            gap: 0px;
+        font-size: 0px;
+        background-color: transparent;
+        
+        }}
+
+        h2{font-size: 18px;
+            width: 100%;}
+            
+        h3 {font-size: 18px;
+            width: 100%;}
+
+p {
+font-size: 14px;}
+
+.infancia {display: block;}
+            
+    .foto-inf{
+    width: 100%;}
+                
+    .imagenes-bcn{width:100%;
+       
+    position: relative;
+    left:0%;
+    padding: 10px;}
+            
+    .imagenes-sub20{width:25%;}
+            
+    .imagen-mundial2014 {width:25%;}
+            
+    .imagen-mundial2022 {
+                left: 5%;
+            width: 85%;
+        height:85% ;}}}
+ 
 
 /* MEDIA QUERIES CONTACTO*/
 @media only screen and (max-width: 350px){
@@ -319,25 +388,269 @@
         }}}}
 
         /* MEDIA QUERIES ESTADISTICAS*/
- @media only screen and (max-width: 500px){
-
-
-    .titulo-estadistica{
-        font-size: 16px;}    
+        @media only screen and (max-width: 950px){
+            main {
+            section.total{
+                   width: auto;
+                    height: 600px;}
+        
+         section.psg{
+        height: 600px;}
+        
+        section.barcelona{
+           height: 600px;}
+        
+        section.arg{
+        height: 600px;}
         
         .progreso {
+            padding:30px 2px;     
+           
         
-        .barra-goles{
-        font-size: 10px;}
+        .barra-goles-total{height: 35px;
+            font-size:20px;; }
                     
-        .barra-asistencias{
-            font-size: 10px;}
+        .barra-asistencias-total{
+            height: 35px;
+            font-size:20px;}
         
-        .barra-partidos{
-            font-size: 10px;}
+        .barra-partidos-total{
+            height: 35px;
+            font-size: 20px;}
         
-        .barra-total{
-            font-size: 10px;}}}
+        .barra-titulos-total{ height: 35px;
+            font-size: 20px;
+            }}
+        
+            .progreso {
+                padding:40px 2px;     
+               
+            
+            .barra-goles-bcn{height: 35px;
+                font-size: 18px;; }
+                        
+            .barra-asistencias-bcn{
+                height: 35px;
+                font-size: 18px;}
+            
+            .barra-partidos-bcn{
+                height: 35px;
+                font-size: 18px;}
+            
+            .barra-titulos-bcn{ height: 35px;
+                font-size: 18px;}}
+        
+                .progreso {
+                    padding:30px 2px;     
+                   
+                
+                .barra-goles-psg{height: 35px;
+                    font-size: 18px;; }
+                            
+                .barra-asistencias-psg{
+                    height: 35px;
+                    font-size: 18px;}
+                
+                .barra-partidos-psg{
+                    height: 35px;
+                    font-size: 18px;}
+                
+                .barra-titulos-psg{ height: 35px;
+                    font-size: 18px;}}
+                
+                    .progreso {
+                        padding:30px 2px;     
+                       
+                    
+                    .barra-goles-arg{height: 35px;
+                        font-size: 18px;; }
+                                
+                    .barra-asistencias-arg{
+                        height: 35px;
+                        font-size: 18px;}
+                    
+                    .barra-partidos-arg{
+                        height: 35px;
+                        font-size: 18px;}
+                    
+                    .barra-titulos-arg{ height: 35px;
+                        font-size: 18px;}}}}
+
+                        @media only screen and (max-width: 950px){
+                            main {
+                            section.total{
+                                   width: auto;
+                                    height: 500px;}
+                        
+                         section.psg{
+                        height: 500px;}
+                        
+                        section.barcelona{
+                           height: 00px;}
+                        
+                        section.arg{
+                        height: 500px;}
+                        
+                        .progreso {
+                            padding:30px 2px;     
+                           
+                        
+                        .barra-goles-total{height: 35px;
+                            font-size:20px;; }
+                                    
+                        .barra-asistencias-total{
+                            height: 35px;
+                            font-size:20px;}
+                        
+                        .barra-partidos-total{
+                            height: 35px;
+                            font-size: 20px;}
+                        
+                        .barra-titulos-total{ height: 35px;
+                            font-size: 20px;
+                            }}
+                        
+                            .progreso {
+                                padding:40px 2px;     
+                               
+                            
+                            .barra-goles-bcn{height: 35px;
+                                font-size: 18px;; }
+                                        
+                            .barra-asistencias-bcn{
+                                height: 35px;
+                                font-size: 18px;}
+                            
+                            .barra-partidos-bcn{
+                                height: 35px;
+                                font-size: 18px;}
+                            
+                            .barra-titulos-bcn{ height: 35px;
+                                font-size: 18px;}}
+                        
+                                .progreso {
+                                    padding:30px 2px;     
+                                   
+                                
+                                .barra-goles-psg{height: 35px;
+                                    font-size: 18px;; }
+                                            
+                                .barra-asistencias-psg{
+                                    height: 35px;
+                                    font-size: 18px;}
+                                
+                                .barra-partidos-psg{
+                                    height: 35px;
+                                    font-size: 18px;}
+                                
+                                .barra-titulos-psg{ height: 35px;
+                                    font-size: 18px;}}
+                                
+                                    .progreso {
+                                        padding:30px 2px;     
+                                       
+                                    
+                                    .barra-goles-arg{height: 35px;
+                                        font-size: 18px;; }
+                                                
+                                    .barra-asistencias-arg{
+                                        height: 35px;
+                                        font-size: 18px;}
+                                    
+                                    .barra-partidos-arg{
+                                        height: 35px;
+                                        font-size: 18px;}
+                                    
+                                    .barra-titulos-arg{ height: 35px;
+                                        font-size: 18px;}}}}
+
+ @media only screen and (max-width: 450px){
+    main {
+    section.total{
+            height: 320px;}
+
+ section.psg{
+height: 300px;}
+
+section.barcelona{
+   height: 340px;}
+
+section.arg{
+height: 320px;}
+
+.progreso {
+    padding:15px 2px;    
+   
+
+.barra-goles-total{height: 18px;
+    font-size: 11px;}
+            
+.barra-asistencias-total{
+    height: 18px;
+                font-size: 11px;}
+
+.barra-partidos-total{
+    height: 18px;
+                font-size: 11px;}
+
+.barra-titulos-total{ height: 18px;
+    font-size: 11px;
+    }}
+
+    .progreso {
+        padding:15px 2px;    
+       
+    
+    .barra-goles-bcn{height: 18px;
+        font-size: 11px; }
+                
+    .barra-asistencias-bcn{
+        height: 18px;
+                font-size: 11px;}
+    
+    .barra-partidos-bcn{
+        height: 18px;
+                font-size: 11px;}
+    
+    .barra-titulos-bcn{ height: 18px;
+        font-size: 11px;}}
+
+        .progreso {
+            padding:15px 2px;    
+           
+        
+        .barra-goles-psg{height: 18px;
+            font-size: 11px; }
+                    
+        .barra-asistencias-psg{
+            height: 18px;
+                font-size: 11px;}
+        
+        .barra-partidos-psg{
+            height: 18px;
+                font-size: 11px;}
+        
+        .barra-titulos-psg{ height: 18px;
+            font-size: 11px;}}
+        
+            .progreso {
+                padding:15px 2px;     
+               
+            
+            .barra-goles-arg{height: 18px;
+                font-size: 11px; }
+                        
+            .barra-asistencias-arg{
+                height: 18px;
+                font-size: 11px;}
+            
+            .barra-partidos-arg{
+                height: 18px;
+                font-size: 11px;}
+            
+            .barra-titulos-arg{ height: 18px;
+                font-size: 11px;}}}}
+
 
        /* MEDIA QUERIES FOOTER*/
        @media only screen and (max-width: 775px){
