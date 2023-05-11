@@ -538,7 +538,7 @@ main section.total {
   background-size: cover;
   background-attachment: local;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 main section.total div {
   background: none;
@@ -550,7 +550,7 @@ main section.psg {
   background-size: cover;
   background-attachment: local;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 main section.psg div {
   background: none;
@@ -562,7 +562,7 @@ main section.barcelona {
   background-size: cover;
   background-attachment: local;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 main section.barcelona div {
   background: none;
@@ -574,7 +574,7 @@ main section.arg {
   background-size: cover;
   background-attachment: local;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 main section.arg div {
   background: none;
@@ -1268,19 +1268,23 @@ main .progreso .barra-titulos-arg {
     font-size: 18px;
   }
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 650px) {
   main section.total {
     width: auto;
     height: 500px;
+    opacity: 0.8;
   }
   main section.psg {
     height: 500px;
+    opacity: 0.8;
   }
   main section.barcelona {
-    height: 0px;
+    height: 500px;
+    opacity: 0.8;
   }
   main section.arg {
     height: 500px;
+    opacity: 0.8;
   }
   main .progreso {
     padding: 30px 2px;
@@ -1362,15 +1366,19 @@ main .progreso .barra-titulos-arg {
 @media only screen and (max-width: 450px) {
   main section.total {
     height: 320px;
+    opacity: 1;
   }
   main section.psg {
     height: 300px;
+    opacity: 1;
   }
   main section.barcelona {
     height: 340px;
+    opacity: 1;
   }
   main section.arg {
     height: 320px;
+    opacity: 1;
   }
   main .progreso {
     padding: 15px 2px;
